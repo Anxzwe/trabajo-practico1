@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de refugios</title>
+    <link rel="stylesheet" href="../css/Formulario.css">
+    <link rel="shortcut icon" href="../assets/2cf1c265ce80fcd59eb90b927004127b.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6c9f04476c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navegacion -->
+
+    <header>
+        <div class="divnav">
+            <nav class="nav">
+                <ul class="lista">
+                    <li><a id="Home" href="../index.html"><i class="fa-solid fa-house icono"></i>Inicio </a></li>
+                    <li><a id="contact" class="activo" href="Formulario.html"><i
+                                class="fa-solid fa-address-book icono"></i>Contacto</a>
+                    <li>
+                    <li><a id="photos" href="galeria.html"><i class="fa-solid fa-images icono"></i>Galería</a></li>
+                    <li><a id="about-us" href=""><i class="fa-solid fa-users icono"></i>Nosotros</a></li>
+                    <li><a id="help-us" href=""><i class="fa-solid fa-handshake-angle icono"></i>Cómo ayudar</a></li>
+                    <li><a id="login" class="login" href=""><i
+                                class="fa-solid fa-arrow-right-to-bracket icono"></i>Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Navegacion -->
+
+    <!-- Formulario -->
+
+    <main>
+        <form class="formulario">
+            <section>
+                <fieldset class="field">
+                    <legend>INFORMACIÓN BÁSICA</legend>
+                    <label>Nombre <input class="input" type="text" placeholder="Estanislao" required> </label>
+                    <label>Apellido <input class="input" type="text" placeholder="Eustaquio" required> </label>
+                    <label>Edad <input class="input" type="number" placeholder="20" min="0" max="99" required> </label>
+                    <label>Género
+                        <select class="opciones" required>
+                            <option value="" disabled selected>Selecciona tu género</option>
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Otro</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset class="field">
+                    <legend>INFORMACIÓN DE CONTACTO</legend>
+                    <label>Email <input class="input" type="email" placeholder="ejemplo@gmail.com" required> </label>
+                    <label>Numero de télefono <input class="input" type="tel" placeholder="(+23)192837465"
+                            required></label>
+                </fieldset>
+            </section>
+
+            <label class="feed">Feedback
+                <textarea rows="5" class="textarea" maxlength="10000" placeholder="Dejanos un mensaje..."></textarea>
+            </label>
+
+            <div class="publicidad">
+                <label for="check">Enviarme notificaciones sobre nuevas adopciones</label>
+                <input id="check" class="check" type="checkbox">
+            </div>
+
+            <div class="botones">
+                <input type="submit" class="enviar">
+                <input type="reset" class="enviar" value="Reset">
+            </div>
+        </form>
+    </main>
+    <section class="section-footer">
+        <div class="footerdiv">
+            <footer>
+                <ul class="contenido-footer1">
+                    <li><a class="links" href="../index.html">Inicio</a></li>
+                    <li><a class="links" href="#">Contacto</a></li>
+                    <li><a class="links" href="galeria.html">Galeria</a></li>
+                    <li><a class="links" href="#">Nosotros</a></li>
+                    <li><a class="links" href="#">Como ayudar</a></li>
+                    <li><a class="links" href="#">Iniciar Sesión</a></li>
+                </ul>
+                <div class="redes">
+                    <p class="redes">Redes</p>
+                    <ul class="contenido-footer2">
+                        <li><a class="iconos-redes" href="//instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li><a class="iconos-redes" href="//x.com"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a class="iconos-redes" href="//whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a class="iconos-redes" href="//facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a class="iconos-redes" href="//youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a class="iconos-redes" href="//linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="separador">
+                    <div class="separador2"></div>
+                </div>
+                <p class="p-footer">© 2025 Nueva Esperanza</p>
+            </footer>
+        </div>
+    </section>
+    <!-- Formulario -->
+</body>
+
+</html>
